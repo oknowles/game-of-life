@@ -5,7 +5,7 @@ A javascript implementation for [Conways Game of Life](https://en.wikipedia.org/
 ## Usage
 Include the `gameOfLife.js` file in your html and define a canvas with the id 'gameOfLife'. 
 
-A game can be started by calling the static `GameOfLife.startGame()` method, which will randomly initialise the grid and start the game. A basic example can be found [here](https://github.com/oknowles/gameOfLife/blob/master/test.html).
+A game can be started by calling the static `GameOfLife.startGame()` method, which will randomly initialise the grid and start the game. A basic example can be found [here](https://oknowles.github.io/gameoflife.html).
 
 ## Optional Configuration Parameters
 * **cellsHorizontal:** width of the grid *(default 200)*
