@@ -20,7 +20,7 @@ The `startGame` method takes the following optional parameters:
 * **liveCellDensity:** portion of the cells that are alive at the beginning *(default 0.2)*
 * **intervalMs:** the interval in milliseconds between each grid update *(default 150)*
 
-For example, you can create a simulation with a grid of width 500, blue coloured live cells, 40% of cells initially alive and a 100ms interval between updates using:
+For example, you can create a simulation with a grid of width 500, blue coloured live cells, 40% of cells initially alive and a 75ms interval between updates using:
 ```javascript
 GameOfLife.startGame(500, '#83adef', 0.4, 75);
 ```
