@@ -1,8 +1,8 @@
 class GameOfLife {
 
-  static startGame(cellsHorizontal=200, drawColour='#d7dde5', liveCellDensity=0.2) {
+  static startGame(cellsHorizontal=200, drawColour='#d7dde5', liveCellDensity=0.2, intervalMs=150) {
     var game = new GameOfLife(cellsHorizontal, drawColour, liveCellDensity);
-    setInterval(function() {game.iterateGame();}, 150)
+    setInterval(function() {game.iterateGame();}, intervalMs)
   }
   
   constructor(cellsHorizontal, drawColour, liveCellDensity) {
