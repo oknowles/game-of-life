@@ -1,6 +1,6 @@
 # gameOfLife
 
-A javascript implementation for [Conways Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). 
+A javascript implementation for [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). 
 
 ## Usage
 Include the `gameOfLife.js` file in your html and define a canvas with the id 'gameOfLife': 
